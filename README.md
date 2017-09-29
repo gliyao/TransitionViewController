@@ -2,10 +2,10 @@
 
 客製化轉場元件，適用於 dialog, tutorial, 
 
+- 支援兩種背景效果
+	- blur, black
 - 支援四個方向的 present, dismiss
 	- top, bottom, left, right
-- 支援兩種背景
-	- blur, black
 - 支援 xib
 
 
