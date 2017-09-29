@@ -11,16 +11,18 @@
 
 # Example
 ```
-override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
+class YourPopupViewController: TransitionViewController {
+	override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
 		super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
 		
 		// Change transition here!!
 		self.transition = TransitionAnimator(style: .blur(.light), presentFrom: .bottom, dismissTo: .bottom)
 	}
-	
+
 	required init?(coder aDecoder: NSCoder) {
 		fatalError("init(coder:) has not been implemented")
 	}
+}
 ```
 
 ![popupView](./popupView.png)
