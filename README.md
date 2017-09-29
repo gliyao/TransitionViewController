@@ -25,4 +25,4 @@ class YourPopupViewController: TransitionViewController {
 }
 ```
 
-![transition](./transition.gif = 400x)
+![transition](./transition.gif =400x)
