@@ -35,8 +35,11 @@
                                 <color key="backgroundColor" red="1" green="1" blue="0.27235243055555558" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gSd-ZP-W3y">
-                                <rect key="frame" x="161" y="318" width="53" height="30"/>
-                                <state key="normal" title="Present"/>
+                                <rect key="frame" x="103.5" y="295.5" width="168" height="75"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="52"/>
+                                <state key="normal" title="Present">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <action selector="presentPopupVCAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Im8-5o-h34"/>
                                 </connections>
