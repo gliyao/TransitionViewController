@@ -9,7 +9,6 @@ Second, chose tranistion style you want.
 
 <img src="./transition.gif" height="776" width="400"></img>
 
-
 ## Support Xib
 You can easily subclass `TransitionViewController` to achieve blur background effect.
 
@@ -37,6 +36,11 @@ enum TransitionPosition {
 	case top, bottom, left, right
 }
 ```
+
+
+## Requirements
+
+- iOS 8.0 or later
 
 ## Sample code
 
