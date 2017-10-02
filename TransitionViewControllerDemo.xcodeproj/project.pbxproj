@@ -16,7 +16,18 @@
 		8A57C1001F7E04A4008D1A9E /* TransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A57C0FF1F7E04A3008D1A9E /* TransitionAnimator.swift */; };
 		8A57C1031F7E0534008D1A9E /* BlurViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A57C1011F7E0534008D1A9E /* BlurViewController.swift */; };
 		8A57C1041F7E0534008D1A9E /* BlurViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A57C1021F7E0534008D1A9E /* BlurViewController.xib */; };
+		8AEA68371F8219440038B7E4 /* TransitionViewControllerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA68361F8219440038B7E4 /* TransitionViewControllerDemoTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8AEA68391F8219440038B7E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A57C0DF1F7E03DC008D1A9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A57C0E61F7E03DC008D1A9E;
+			remoteInfo = TransitionViewControllerDemo;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		8A57C0E71F7E03DC008D1A9E /* TransitionViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransitionViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -30,10 +41,20 @@
 		8A57C0FF1F7E04A3008D1A9E /* TransitionAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionAnimator.swift; sourceTree = "<group>"; };
 		8A57C1011F7E0534008D1A9E /* BlurViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurViewController.swift; sourceTree = "<group>"; };
 		8A57C1021F7E0534008D1A9E /* BlurViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BlurViewController.xib; sourceTree = "<group>"; };
+		8AEA68341F8219440038B7E4 /* TransitionViewControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransitionViewControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AEA68361F8219440038B7E4 /* TransitionViewControllerDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionViewControllerDemoTests.swift; sourceTree = "<group>"; };
+		8AEA68381F8219440038B7E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8A57C0E41F7E03DC008D1A9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AEA68311F8219440038B7E4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -47,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				8A57C0E91F7E03DC008D1A9E /* TransitionViewControllerDemo */,
+				8AEA68351F8219440038B7E4 /* TransitionViewControllerDemoTests */,
 				8A57C0E81F7E03DC008D1A9E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				8A57C0E71F7E03DC008D1A9E /* TransitionViewControllerDemo.app */,
+				8AEA68341F8219440038B7E4 /* TransitionViewControllerDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,6 +107,15 @@
 			path = TransitionViewController;
 			sourceTree = "<group>";
 		};
+		8AEA68351F8219440038B7E4 /* TransitionViewControllerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8AEA68361F8219440038B7E4 /* TransitionViewControllerDemoTests.swift */,
+				8AEA68381F8219440038B7E4 /* Info.plist */,
+			);
+			path = TransitionViewControllerDemoTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -104,6 +136,24 @@
 			productReference = 8A57C0E71F7E03DC008D1A9E /* TransitionViewControllerDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		8AEA68331F8219440038B7E4 /* TransitionViewControllerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AEA683D1F8219440038B7E4 /* Build configuration list for PBXNativeTarget "TransitionViewControllerDemoTests" */;
+			buildPhases = (
+				8AEA68301F8219440038B7E4 /* Sources */,
+				8AEA68311F8219440038B7E4 /* Frameworks */,
+				8AEA68321F8219440038B7E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AEA683A1F8219440038B7E4 /* PBXTargetDependency */,
+			);
+			name = TransitionViewControllerDemoTests;
+			productName = TransitionViewControllerDemoTests;
+			productReference = 8AEA68341F8219440038B7E4 /* TransitionViewControllerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -117,6 +167,11 @@
 					8A57C0E61F7E03DC008D1A9E = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
+					};
+					8AEA68331F8219440038B7E4 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8A57C0E61F7E03DC008D1A9E;
 					};
 				};
 			};
@@ -134,6 +189,7 @@
 			projectRoot = "";
 			targets = (
 				8A57C0E61F7E03DC008D1A9E /* TransitionViewControllerDemo */,
+				8AEA68331F8219440038B7E4 /* TransitionViewControllerDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -147,6 +203,13 @@
 				8A57C0F21F7E03DC008D1A9E /* Assets.xcassets in Resources */,
 				8A57C0F01F7E03DC008D1A9E /* Main.storyboard in Resources */,
 				8A57C1041F7E0534008D1A9E /* BlurViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AEA68321F8219440038B7E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,7 +228,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8AEA68301F8219440038B7E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AEA68371F8219440038B7E4 /* TransitionViewControllerDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8AEA683A1F8219440038B7E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A57C0E61F7E03DC008D1A9E /* TransitionViewControllerDemo */;
+			targetProxy = 8AEA68391F8219440038B7E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		8A57C0EE1F7E03DC008D1A9E /* Main.storyboard */ = {
@@ -326,6 +405,38 @@
 			};
 			name = Release;
 		};
+		8AEA683B1F8219440038B7E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SXMYCF7B2;
+				INFOPLIST_FILE = TransitionViewControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liyao.TransitionViewControllerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TransitionViewControllerDemo.app/TransitionViewControllerDemo";
+			};
+			name = Debug;
+		};
+		8AEA683C1F8219440038B7E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SXMYCF7B2;
+				INFOPLIST_FILE = TransitionViewControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liyao.TransitionViewControllerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TransitionViewControllerDemo.app/TransitionViewControllerDemo";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -343,6 +454,15 @@
 			buildConfigurations = (
 				8A57C0FA1F7E03DC008D1A9E /* Debug */,
 				8A57C0FB1F7E03DC008D1A9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AEA683D1F8219440038B7E4 /* Build configuration list for PBXNativeTarget "TransitionViewControllerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AEA683B1F8219440038B7E4 /* Debug */,
+				8AEA683C1F8219440038B7E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
