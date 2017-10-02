@@ -13,7 +13,7 @@ Second, chose tranistion style you want.
 You can easily subclass `TransitionViewController` to achieve blur background effect.
 
 
-## Background effet
+## Background Effet
 
 There have 2 kind of background effect. Blur and black with alpha.
 
@@ -27,7 +27,7 @@ enum TransitionStyle {
 }
 ```
 
-## Present and dismiss direction
+## Present and Dismiss Direction
 
 Support 4 direction (top, bottom, left, right)
 
@@ -42,7 +42,7 @@ enum TransitionPosition {
 
 - iOS 8.0 or later
 
-## Sample code
+## How To Use
 
 ``` swift
 // 1. Subclass for your dialog view controller
