@@ -15,7 +15,8 @@ before_install:
 
 script:
     - set -o pipefail
-    - xcodebuild -configuration Debug -project TransitionViewControllerDemo.xcodeproj -scheme TransitionViewControllerDemo -sdk iphonesimulator clean build
+    - xcodebuild -project TransitionViewControllerDemo.xcodeproj -scheme TransitionViewControllerDemo -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+    # - xcodebuild -configuration Debug -project TransitionViewControllerDemo.xcodeproj -scheme TransitionViewControllerDemo -sdk iphonesimulator clean build
 
 # xcode_project: TransitionViewControllerDemo.xcodeproj # path to your xcodeproj folder
 # xcode_scheme: TransitionViewControllerDemoTests
