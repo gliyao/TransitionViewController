@@ -8,12 +8,13 @@
 
 import UIKit
 
+// 1. Subclass for your dialog view controller
 class BlurViewController: TransitionViewController {
 	override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
 		super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
 		
-		// Change transition here!!
-		self.transition = TransitionAnimator(style: .blur(.light), presentFrom: .bottom, dismissTo: .bottom)
+		// 2. Change transition here!!
+		self.transition = TransitionAnimator(style: .blur(.dark), presentFrom: .bottom, dismissTo: .bottom)
 	}
 	
 	required init?(coder aDecoder: NSCoder) {
