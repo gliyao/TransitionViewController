@@ -1,5 +1,7 @@
 # TransitionViewController
 
+[![Build Status](https://travis-ci.org/gliyao/TransitionViewController.svg?branch=master)](https://travis-ci.org/gliyao/TransitionViewController)
+
 Use blur transiton effect in 2 steps. 
 
 First, Subclass your dialog view controller.
