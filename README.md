@@ -4,7 +4,7 @@
 
 Use blur transiton effect in 2 steps. 
 
-First, Subclass your dialog view controller.
+First, subclass your dialog view controller.
 Second, chose tranistion style you want.
 
 <img src="./transition.gif" height="776" width="400"></img>
