@@ -20,6 +20,20 @@
                ReferencedContainer = "container:TransitionViewControllerDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8AEA68331F8219440038B7E4"
+               BuildableName = "TransitionViewControllerDemoTests.xctest"
+               BlueprintName = "TransitionViewControllerDemoTests"
+               ReferencedContainer = "container:TransitionViewControllerDemo.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction

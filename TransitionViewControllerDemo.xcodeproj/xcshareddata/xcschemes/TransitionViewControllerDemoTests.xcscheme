@@ -24,6 +24,15 @@
             </BuildableReference>
          </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8A57C0E61F7E03DC008D1A9E"
+            BuildableName = "TransitionViewControllerDemo.app"
+            BlueprintName = "TransitionViewControllerDemo"
+            ReferencedContainer = "container:TransitionViewControllerDemo.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -38,6 +47,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8A57C0E61F7E03DC008D1A9E"
+            BuildableName = "TransitionViewControllerDemo.app"
+            BlueprintName = "TransitionViewControllerDemo"
+            ReferencedContainer = "container:TransitionViewControllerDemo.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -47,6 +66,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8A57C0E61F7E03DC008D1A9E"
+            BuildableName = "TransitionViewControllerDemo.app"
+            BlueprintName = "TransitionViewControllerDemo"
+            ReferencedContainer = "container:TransitionViewControllerDemo.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

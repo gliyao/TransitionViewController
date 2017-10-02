@@ -408,7 +408,6 @@
 		8AEA683B1F8219440038B7E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7SXMYCF7B2;
 				INFOPLIST_FILE = TransitionViewControllerDemoTests/Info.plist;
@@ -424,7 +423,6 @@
 		8AEA683C1F8219440038B7E4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7SXMYCF7B2;
 				INFOPLIST_FILE = TransitionViewControllerDemoTests/Info.plist;
