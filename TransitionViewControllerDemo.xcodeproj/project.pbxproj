@@ -16,6 +16,8 @@
 		8A57C1041F7E0534008D1A9E /* BlurViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A57C1021F7E0534008D1A9E /* BlurViewController.xib */; };
 		8AE8DDE11F82696F002CA74E /* TransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE8DDDF1F82696F002CA74E /* TransitionAnimator.swift */; };
 		8AE8DDE21F82696F002CA74E /* TransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE8DDE01F82696F002CA74E /* TransitionViewController.swift */; };
+		8AE8DDE31F826A0D002CA74E /* TransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE8DDE01F82696F002CA74E /* TransitionViewController.swift */; };
+		8AE8DDE41F826A0F002CA74E /* TransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE8DDDF1F82696F002CA74E /* TransitionAnimator.swift */; };
 		8AEA68371F8219440038B7E4 /* TransitionViewControllerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA68361F8219440038B7E4 /* TransitionViewControllerDemoTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -233,6 +235,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AEA68371F8219440038B7E4 /* TransitionViewControllerDemoTests.swift in Sources */,
+				8AE8DDE31F826A0D002CA74E /* TransitionViewController.swift in Sources */,
+				8AE8DDE41F826A0F002CA74E /* TransitionAnimator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
