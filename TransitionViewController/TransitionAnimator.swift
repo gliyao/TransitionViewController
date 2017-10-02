@@ -27,6 +27,19 @@ enum TransitionPosition {
 	}
 }
 
+extension TransitionPosition: Equatable {
+	public static func ==(lhs: TransitionPosition, rhs: TransitionPosition) -> Bool {
+		switch (lhs, rhs) {
+		case (.top, .top): return true
+		case (.left, .left): return true
+		case (.bottom, .bottom): return true
+		case (.right, .right): return true
+		default:
+			return false
+		}
+	}
+}
+
 enum TransitionStyle {
 	case black(CGFloat)
 	case blur(UIBlurEffectStyle)
@@ -40,6 +53,21 @@ enum TransitionStyle {
 		case .blur(let blurStyle):
 			let effect = UIBlurEffect(style: blurStyle)
 			return UIVisualEffectView(effect: effect)
+		}
+	}
+}
+
+extension TransitionStyle: Equatable {
+	public static func ==(lhs: TransitionStyle, rhs: TransitionStyle) -> Bool {
+		switch (lhs, rhs) {
+		case (.black(let l), .black(let r)):
+			return l == r
+		case (.blur(let l), .blur(let r)):
+			return l == r
+		case (.blur(_), .black(_)):
+			return true
+		case (.black(_), .blur(_)):
+			return true
 		}
 	}
 }
@@ -88,6 +116,12 @@ class TransitionAnimator: NSObject, UIViewControllerTransitioningDelegate, UIVie
 		}
 	}
 }
+
+//extension TransitionAnimator: Equatable {
+//	public static func ==(lhs: TransitionAnimator, rhs: TransitionAnimator) -> Bool {
+//		return lhs.style == rhs.style && lhs.presentFrom == rhs.presentFrom && lhs.dismissTo == rhs.dismissTo
+//	}
+//}
 
 extension TransitionAnimator {
 	func transitionIn(direction: TransitionPosition, from originVC: UIViewController, to popupVC: UIViewController, transitionContext: UIViewControllerContextTransitioning) {
