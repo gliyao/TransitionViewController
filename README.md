@@ -1,5 +1,7 @@
 # TransitionViewController
 
+[![Build Status](https://travis-ci.org/gliyao/TransitionViewController.svg?branch=master)](https://travis-ci.org/gliyao/TransitionViewController)
+
 Use blur transiton effect in 2 steps. 
 
 First, Subclass your dialog view controller.
@@ -25,7 +27,7 @@ Support 4 direction (top, bottom, left, right)
 
 ## Sample code
 
-```
+``` swift
 // 1. Subclass for your dialog view controller
 class YourPopupViewController: TransitionViewController {
 	override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
