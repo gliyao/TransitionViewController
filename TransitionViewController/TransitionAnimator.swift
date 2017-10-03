@@ -43,9 +43,11 @@ extension TransitionPosition: Equatable {
 enum TransitionStyle {
 	case black(CGFloat)
 	case blur(UIBlurEffectStyle)
-	
-	func generateView() -> UIView {
-		switch self {
+}
+
+class BackgroundViewFactory {
+	class func backgroundView(with transitionStyle: TransitionStyle) -> UIView {
+		switch transitionStyle {
 		case .black(let alpha):
 			let view = UIView()
 			view.backgroundColor = UIColor(white: 0, alpha: CGFloat(alpha))
@@ -117,12 +119,6 @@ class TransitionAnimator: NSObject, UIViewControllerTransitioningDelegate, UIVie
 	}
 }
 
-//extension TransitionAnimator: Equatable {
-//	public static func ==(lhs: TransitionAnimator, rhs: TransitionAnimator) -> Bool {
-//		return lhs.style == rhs.style && lhs.presentFrom == rhs.presentFrom && lhs.dismissTo == rhs.dismissTo
-//	}
-//}
-
 extension TransitionAnimator {
 	func transitionIn(direction: TransitionPosition, from originVC: UIViewController, to popupVC: UIViewController, transitionContext: UIViewControllerContextTransitioning) {
 		transitionContext.containerView.addSubview(originVC.view)
@@ -134,7 +130,7 @@ extension TransitionAnimator {
 		popupVC.view.frame = startFrame
 		
 		
-		let blurView = style.generateView()
+		let blurView = BackgroundViewFactory.backgroundView(with: style)
 		blurView.frame = popupVC.view.bounds
 		blurView.alpha = 0
 		
