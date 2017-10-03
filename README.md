@@ -17,8 +17,8 @@ You can easily subclass `TransitionViewController` to achieve blur background ef
 
 There have 2 kind of background effect. Blur and black with alpha.
 
-<img src="./darkBlurPopupView.png" height="776" width="400"></img>
-<img src="./balck05PopupView.png" height="776" width="400"></img>
+<img src="./darkBlurPopupView.png" height="702" width="400"></img>
+<img src="./balck05PopupView.png" height="702" width="400"></img>
 
 ``` swift
 enum TransitionStyle {
