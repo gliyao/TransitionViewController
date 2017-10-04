@@ -1,12 +1,11 @@
 # TransitionViewController
 
 <!-- [![Build Status](https://travis-ci.org/gliyao/TransitionViewController.svg?branch=master)](https://travis-ci.org/gliyao/TransitionViewController)  -->
-<!-- [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) -->
-
 [![CI Status](https://travis-ci.org/gliyao/TransitionViewController.svg?branch=master)](https://travis-ci.org/gliyao/TransitionViewController)
-[![Version](https://img.shields.io/cocoapods/v/TransitionViewController.svg?style=flat)](http://cocoapods.org/pods/TransitionViewController)
-[![License](https://img.shields.io/cocoapods/l/TransitionViewController.svg?style=flat)](http://cocoapods.org/pods/TransitionViewController)
-[![Platform](https://img.shields.io/cocoapods/p/TransitionViewController.svg?style=flat)](http://cocoapods.org/pods/TransitionViewController)
+<!-- [![Version](https://img.shields.io/cocoapods/v/TransitionViewController.svg?style=flat)](http://cocoapods.org/pods/TransitionViewController) -->
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<!-- [![License](https://img.shields.io/cocoapods/l/TransitionViewController.svg?style=flat)](http://cocoapods.org/pods/TransitionViewController) -->
+<!-- [![Platform](https://img.shields.io/cocoapods/p/TransitionViewController.svg?style=flat)](http://cocoapods.org/pods/TransitionViewController) -->
 
 Use blur transiton effect in 2 steps. 
 
