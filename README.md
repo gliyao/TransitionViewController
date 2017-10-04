@@ -9,17 +9,16 @@ Second, chose tranistion style you want.
 
 <img src="./transition.gif" height="776" width="400"></img>
 
-
 ## Support Xib
 You can easily subclass `TransitionViewController` to achieve blur background effect.
 
 
-## Background effet
+## Background Effet
 
 There have 2 kind of background effect. Blur and black with alpha.
 
-<img src="./darkBlurPopupView.png" height="776" width="400"></img>
-<img src="./balck05PopupView.png" height="776" width="400"></img>
+<img src="./darkBlurPopupView.png" height="702" width="400"></img>
+<img src="./balck05PopupView.png" height="702" width="400"></img>
 
 ``` swift
 enum TransitionStyle {
@@ -28,7 +27,7 @@ enum TransitionStyle {
 }
 ```
 
-## Present and dismiss direction
+## Present and Dismiss Direction
 
 Support 4 direction (top, bottom, left, right)
 
@@ -38,7 +37,12 @@ enum TransitionPosition {
 }
 ```
 
-## Sample code
+
+## Requirements
+
+- iOS 8.0 or later
+
+## How To Use
 
 ``` swift
 // 1. Subclass for your dialog view controller

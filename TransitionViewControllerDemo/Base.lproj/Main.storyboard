@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="YJX-Q8-Zn9">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="YJX-Q8-Zn9">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -14,6 +14,10 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TransitionViewControllerDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Xhb-7D-wuN"/>
+                        <viewControllerLayoutGuide type="bottom" id="FTJ-cS-IlU"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -47,28 +51,27 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="EvE-ra-O6e" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="0HG-b2-AKi"/>
-                            <constraint firstItem="EvE-ra-O6e" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="2DM-Kz-ZEF"/>
+                            <constraint firstItem="EvE-ra-O6e" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="0HG-b2-AKi"/>
+                            <constraint firstItem="EvE-ra-O6e" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="2DM-Kz-ZEF"/>
                             <constraint firstItem="EvE-ra-O6e" firstAttribute="top" secondItem="fwM-fe-823" secondAttribute="bottom" id="5OM-sM-26O"/>
-                            <constraint firstItem="fwM-fe-823" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="9ZP-TM-PyB"/>
-                            <constraint firstItem="q41-DM-Uw0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Bti-Iw-9tK"/>
+                            <constraint firstItem="fwM-fe-823" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="9ZP-TM-PyB"/>
+                            <constraint firstItem="q41-DM-Uw0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Bti-Iw-9tK"/>
                             <constraint firstItem="gSd-ZP-W3y" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="E8g-hu-l20"/>
-                            <constraint firstItem="ljH-Jw-CWd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ERx-Ht-ZOX"/>
-                            <constraint firstItem="ljH-Jw-CWd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="FW8-ds-8bj"/>
+                            <constraint firstItem="ljH-Jw-CWd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ERx-Ht-ZOX"/>
+                            <constraint firstItem="ljH-Jw-CWd" firstAttribute="top" secondItem="Xhb-7D-wuN" secondAttribute="bottom" id="FW8-ds-8bj"/>
                             <constraint firstItem="gSd-ZP-W3y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Fbb-CK-dxi"/>
-                            <constraint firstItem="q41-DM-Uw0" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="I5q-nM-je5"/>
+                            <constraint firstItem="q41-DM-Uw0" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="I5q-nM-je5"/>
                             <constraint firstItem="q41-DM-Uw0" firstAttribute="top" secondItem="ljH-Jw-CWd" secondAttribute="bottom" id="JUL-5t-FA4"/>
                             <constraint firstItem="EvE-ra-O6e" firstAttribute="top" secondItem="fwM-fe-823" secondAttribute="bottom" id="JeS-EW-aUG"/>
-                            <constraint firstItem="fwM-fe-823" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="TEh-gh-bsT"/>
+                            <constraint firstItem="fwM-fe-823" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="TEh-gh-bsT"/>
                             <constraint firstItem="fwM-fe-823" firstAttribute="top" secondItem="q41-DM-Uw0" secondAttribute="bottom" id="WxY-cG-42K"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="EvE-ra-O6e" secondAttribute="bottom" id="Zsz-6n-jB0"/>
-                            <constraint firstItem="ljH-Jw-CWd" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="g1R-Lq-lOr"/>
+                            <constraint firstItem="FTJ-cS-IlU" firstAttribute="top" secondItem="EvE-ra-O6e" secondAttribute="bottom" id="Zsz-6n-jB0"/>
+                            <constraint firstItem="ljH-Jw-CWd" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="g1R-Lq-lOr"/>
                             <constraint firstItem="q41-DM-Uw0" firstAttribute="top" secondItem="ljH-Jw-CWd" secondAttribute="bottom" id="oZg-4T-W8d"/>
                             <constraint firstItem="q41-DM-Uw0" firstAttribute="height" secondItem="fwM-fe-823" secondAttribute="height" id="qAA-Y1-q4e"/>
                             <constraint firstItem="ljH-Jw-CWd" firstAttribute="height" secondItem="q41-DM-Uw0" secondAttribute="height" id="sQa-Lb-YUZ"/>
                             <constraint firstItem="fwM-fe-823" firstAttribute="height" secondItem="EvE-ra-O6e" secondAttribute="height" id="uW5-ee-fGK"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="TransitionViewControllerDemo" id="43S-pT-wra"/>
                 </viewController>
