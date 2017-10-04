@@ -1,6 +1,12 @@
 # TransitionViewController
 
-[![Build Status](https://travis-ci.org/gliyao/TransitionViewController.svg?branch=master)](https://travis-ci.org/gliyao/TransitionViewController) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<!-- [![Build Status](https://travis-ci.org/gliyao/TransitionViewController.svg?branch=master)](https://travis-ci.org/gliyao/TransitionViewController)  -->
+<!-- [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) -->
+
+[![CI Status](http://img.shields.io/travis/gliyao@gmail.com/TransitionViewController.svg?style=flat)](https://travis-ci.org/gliyao@gmail.com/TransitionViewController)
+[![Version](https://img.shields.io/cocoapods/v/TransitionViewController.svg?style=flat)](http://cocoapods.org/pods/TransitionViewController)
+[![License](https://img.shields.io/cocoapods/l/TransitionViewController.svg?style=flat)](http://cocoapods.org/pods/TransitionViewController)
+[![Platform](https://img.shields.io/cocoapods/p/TransitionViewController.svg?style=flat)](http://cocoapods.org/pods/TransitionViewController)
 
 Use blur transiton effect in 2 steps. 
 
@@ -41,6 +47,24 @@ enum TransitionPosition {
 ## Requirements
 
 - iOS 8.0 or later
+
+## Installation
+
+TransitionViewController is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'TransitionViewController'
+```
+
+## Author
+
+gliyao@gmail.com, gliyao@gmail.com
+
+## License
+
+LCLabel is available under the MIT license. See the LICENSE file for more info.
+
 
 ## How To Use
 
