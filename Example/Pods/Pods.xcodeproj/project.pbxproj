@@ -1,0 +1,740 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EB848D2648F251E1BD552333EBC3C81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1160CA0942FD75D24428C98699CE111F /* Pods-TransitionViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6820814628540F13E921C2DED82BA5F9 /* Pods-TransitionViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EC0CD47767EB00C66E70685D68A21F0 /* TransitionViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E08BCFDCB25195C52EAF7247BE4F9452 /* TransitionViewController-dummy.m */; };
+		3291A7438D7640DE24314371DEE75E17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3729AE70C21A4DC7BDC9D9FE68A40A5A /* Pods-TransitionViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF6C49CBBB5B0F13BF83BD5BF01BAB0 /* Pods-TransitionViewController_Tests-dummy.m */; };
+		8ACD62341F8540A800BB1119 /* TransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACD62321F85400800BB1119 /* TransitionViewController.swift */; };
+		8ACD62351F8540AB00BB1119 /* TransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACD62331F85400900BB1119 /* TransitionAnimator.swift */; };
+		8ACD623B1F85428000BB1119 /* TransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACD62331F85400900BB1119 /* TransitionAnimator.swift */; };
+		8ACD623C1F85428200BB1119 /* TransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACD62321F85400800BB1119 /* TransitionViewController.swift */; };
+		B3BBB98B53DC9B29E0D422A3FF3A3C81 /* TransitionViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BDDE3C671617FD51A7E851FB0E081B10 /* TransitionViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B63F7A7BAD370120C90625E2F00520D4 /* Pods-TransitionViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D6D26157B07D622715773AFF0DCA96 /* Pods-TransitionViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEECBBA4264B06705A8446E80F2FBFF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C10E766A5E7F64BC553494E1C053978D /* Pods-TransitionViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD51198F33D7377D8AFFE3A3538098C0 /* Pods-TransitionViewController_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30013A9CB284ADEF78C5BA14D680186B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F2C70C8F3258C1EF428D34E7D4339C1;
+			remoteInfo = TransitionViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0034DB9DE685B76DDF696C19298D5E05 /* Pods-TransitionViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TransitionViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		28C68956ECA9F48117DC48BDDDFC0449 /* Pods-TransitionViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TransitionViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		30C0A036EC56146FE799AC46A64FA783 /* Pods-TransitionViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TransitionViewController_Example.modulemap"; sourceTree = "<group>"; };
+		38D491AF3AE435D3866CF89D71678E2A /* TransitionViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TransitionViewController-prefix.pch"; sourceTree = "<group>"; };
+		39507156D0DD948D8590FF0942D1A2AC /* Pods-TransitionViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TransitionViewController_Tests.modulemap"; sourceTree = "<group>"; };
+		48D6D26157B07D622715773AFF0DCA96 /* Pods-TransitionViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TransitionViewController_Example-umbrella.h"; sourceTree = "<group>"; };
+		4933D8671F0765639340C9B1C6A4D62E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AF6C49CBBB5B0F13BF83BD5BF01BAB0 /* Pods-TransitionViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TransitionViewController_Tests-dummy.m"; sourceTree = "<group>"; };
+		5FB3C1D517116E505BBFC038A332FBC0 /* Pods-TransitionViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TransitionViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		67D732B2BC30955E7D3EDBDD6A8FD8B8 /* TransitionViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TransitionViewController.xcconfig; sourceTree = "<group>"; };
+		6820814628540F13E921C2DED82BA5F9 /* Pods-TransitionViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TransitionViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8111B5F93E82F167E93EB4A0DE3453CF /* TransitionViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TransitionViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		860523E673F5457941B7559DCC71288B /* Pods-TransitionViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TransitionViewController_Tests-resources.sh"; sourceTree = "<group>"; };
+		891454BD1D66DA5CFDD7E129EC1171C2 /* Pods-TransitionViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TransitionViewController_Example-resources.sh"; sourceTree = "<group>"; };
+		8ACD62321F85400800BB1119 /* TransitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionViewController.swift; sourceTree = "<group>"; };
+		8ACD62331F85400900BB1119 /* TransitionAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionAnimator.swift; sourceTree = "<group>"; };
+		8B7CEB0B569CB4C541F87E99019A388F /* Pods-TransitionViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TransitionViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8CAB0609DD8F3A9348DEDA5EBB75EDFF /* Pods-TransitionViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TransitionViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C6D1E0267CC55D7D3981B58DBCD74AB /* Pods_TransitionViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TransitionViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8E90AC8D79CD8E4FD2251F8C71B2936 /* Pods_TransitionViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TransitionViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD51198F33D7377D8AFFE3A3538098C0 /* Pods-TransitionViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TransitionViewController_Example-dummy.m"; sourceTree = "<group>"; };
+		BDDE3C671617FD51A7E851FB0E081B10 /* TransitionViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TransitionViewController-umbrella.h"; sourceTree = "<group>"; };
+		DA37BBC014401BC1460E986F6B9ED5DC /* Pods-TransitionViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TransitionViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DB3685063887672A2918627F48903991 /* Pods-TransitionViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TransitionViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE48A97B342CC092F9C328D58957D431 /* Pods-TransitionViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TransitionViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DF75B9FB11FE99E17CA7AF37A831FD69 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E08BCFDCB25195C52EAF7247BE4F9452 /* TransitionViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TransitionViewController-dummy.m"; sourceTree = "<group>"; };
+		E0988606ADF291337592C5007FB893A5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E89139BE944724F0D4F86C0695EB58F8 /* Pods-TransitionViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TransitionViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		F085A114376AD5157878C7A01ABE5BF6 /* TransitionViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TransitionViewController.modulemap; sourceTree = "<group>"; };
+		FBF1F3CB03F2FAA654FA92AA73AF8CC3 /* Pods-TransitionViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TransitionViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A634B442D50853FFBE9B3A257EE6873 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3291A7438D7640DE24314371DEE75E17 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B39893354258444BBFE613E7531DE6A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEECBBA4264B06705A8446E80F2FBFF9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC88088D1BDBB614B208CBD15A9A062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EB848D2648F251E1BD552333EBC3C81 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		115C95DA1ADAD0A6E0979BD5F2D93DAA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				739CCB6BBD888A4C793BFC12EFE2E74D /* Pods-TransitionViewController_Example */,
+				C0BE08BBA53ABA1CFAD5DB77E133940D /* Pods-TransitionViewController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		13587018919808672010578030A1E87F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4933D8671F0765639340C9B1C6A4D62E /* Info.plist */,
+				F085A114376AD5157878C7A01ABE5BF6 /* TransitionViewController.modulemap */,
+				67D732B2BC30955E7D3EDBDD6A8FD8B8 /* TransitionViewController.xcconfig */,
+				E08BCFDCB25195C52EAF7247BE4F9452 /* TransitionViewController-dummy.m */,
+				38D491AF3AE435D3866CF89D71678E2A /* TransitionViewController-prefix.pch */,
+				BDDE3C671617FD51A7E851FB0E081B10 /* TransitionViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TransitionViewController";
+			sourceTree = "<group>";
+		};
+		29739079D5A0AC89FB6BFF4B72B92E8D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FF64C292D5056038996D2FCCF965AC4 /* TransitionViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2FF64C292D5056038996D2FCCF965AC4 /* TransitionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				13587018919808672010578030A1E87F /* Support Files */,
+				9896999B4AA5E3331F9CD98D7788A67F /* TransitionViewController */,
+			);
+			name = TransitionViewController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6942DC3026BE776769ABFC5D2AF4987E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8E90AC8D79CD8E4FD2251F8C71B2936 /* Pods_TransitionViewController_Example.framework */,
+				9C6D1E0267CC55D7D3981B58DBCD74AB /* Pods_TransitionViewController_Tests.framework */,
+				8111B5F93E82F167E93EB4A0DE3453CF /* TransitionViewController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		739CCB6BBD888A4C793BFC12EFE2E74D /* Pods-TransitionViewController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E0988606ADF291337592C5007FB893A5 /* Info.plist */,
+				30C0A036EC56146FE799AC46A64FA783 /* Pods-TransitionViewController_Example.modulemap */,
+				0034DB9DE685B76DDF696C19298D5E05 /* Pods-TransitionViewController_Example-acknowledgements.markdown */,
+				28C68956ECA9F48117DC48BDDDFC0449 /* Pods-TransitionViewController_Example-acknowledgements.plist */,
+				BD51198F33D7377D8AFFE3A3538098C0 /* Pods-TransitionViewController_Example-dummy.m */,
+				FBF1F3CB03F2FAA654FA92AA73AF8CC3 /* Pods-TransitionViewController_Example-frameworks.sh */,
+				891454BD1D66DA5CFDD7E129EC1171C2 /* Pods-TransitionViewController_Example-resources.sh */,
+				48D6D26157B07D622715773AFF0DCA96 /* Pods-TransitionViewController_Example-umbrella.h */,
+				5FB3C1D517116E505BBFC038A332FBC0 /* Pods-TransitionViewController_Example.debug.xcconfig */,
+				DE48A97B342CC092F9C328D58957D431 /* Pods-TransitionViewController_Example.release.xcconfig */,
+			);
+			name = "Pods-TransitionViewController_Example";
+			path = "Target Support Files/Pods-TransitionViewController_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				29739079D5A0AC89FB6BFF4B72B92E8D /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6942DC3026BE776769ABFC5D2AF4987E /* Products */,
+				115C95DA1ADAD0A6E0979BD5F2D93DAA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9896999B4AA5E3331F9CD98D7788A67F /* TransitionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CB76706DC262EF73AF3ABE8703D0709B /* Classes */,
+			);
+			path = TransitionViewController;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0BE08BBA53ABA1CFAD5DB77E133940D /* Pods-TransitionViewController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DF75B9FB11FE99E17CA7AF37A831FD69 /* Info.plist */,
+				39507156D0DD948D8590FF0942D1A2AC /* Pods-TransitionViewController_Tests.modulemap */,
+				DA37BBC014401BC1460E986F6B9ED5DC /* Pods-TransitionViewController_Tests-acknowledgements.markdown */,
+				8B7CEB0B569CB4C541F87E99019A388F /* Pods-TransitionViewController_Tests-acknowledgements.plist */,
+				5AF6C49CBBB5B0F13BF83BD5BF01BAB0 /* Pods-TransitionViewController_Tests-dummy.m */,
+				E89139BE944724F0D4F86C0695EB58F8 /* Pods-TransitionViewController_Tests-frameworks.sh */,
+				860523E673F5457941B7559DCC71288B /* Pods-TransitionViewController_Tests-resources.sh */,
+				6820814628540F13E921C2DED82BA5F9 /* Pods-TransitionViewController_Tests-umbrella.h */,
+				DB3685063887672A2918627F48903991 /* Pods-TransitionViewController_Tests.debug.xcconfig */,
+				8CAB0609DD8F3A9348DEDA5EBB75EDFF /* Pods-TransitionViewController_Tests.release.xcconfig */,
+			);
+			name = "Pods-TransitionViewController_Tests";
+			path = "Target Support Files/Pods-TransitionViewController_Tests";
+			sourceTree = "<group>";
+		};
+		CB76706DC262EF73AF3ABE8703D0709B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8ACD62331F85400900BB1119 /* TransitionAnimator.swift */,
+				8ACD62321F85400800BB1119 /* TransitionViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3902C952633C4D1A6C64B8CB18E4F7A0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1160CA0942FD75D24428C98699CE111F /* Pods-TransitionViewController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559D4F3017B59FC2E148EC5464EC06FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3BBB98B53DC9B29E0D422A3FF3A3C81 /* TransitionViewController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69971CF6E0538C45BE5B2E112A4D7F3A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B63F7A7BAD370120C90625E2F00520D4 /* Pods-TransitionViewController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		20931CA7878134CBFC2960509BED0FA7 /* Pods-TransitionViewController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 946267F34BD4896B66D653C3527CDD97 /* Build configuration list for PBXNativeTarget "Pods-TransitionViewController_Tests" */;
+			buildPhases = (
+				9CC1CA391CE26F77FDFADCC1E18E7A4B /* Sources */,
+				2A634B442D50853FFBE9B3A257EE6873 /* Frameworks */,
+				3902C952633C4D1A6C64B8CB18E4F7A0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TransitionViewController_Tests";
+			productName = "Pods-TransitionViewController_Tests";
+			productReference = 9C6D1E0267CC55D7D3981B58DBCD74AB /* Pods_TransitionViewController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4F2C70C8F3258C1EF428D34E7D4339C1 /* TransitionViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA89FEE459591224485E0BC8379A30B1 /* Build configuration list for PBXNativeTarget "TransitionViewController" */;
+			buildPhases = (
+				CADE16C4E5A2B770E251E832A5C672CF /* Sources */,
+				B39893354258444BBFE613E7531DE6A3 /* Frameworks */,
+				559D4F3017B59FC2E148EC5464EC06FE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TransitionViewController;
+			productName = TransitionViewController;
+			productReference = 8111B5F93E82F167E93EB4A0DE3453CF /* TransitionViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9E8681B32AD662EC5F25042F5CE8F40A /* Pods-TransitionViewController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F280105C0ED09954C759C543B6FDC5D /* Build configuration list for PBXNativeTarget "Pods-TransitionViewController_Example" */;
+			buildPhases = (
+				02CD924F6A1E92905ABC73760FDA2D5E /* Sources */,
+				FAC88088D1BDBB614B208CBD15A9A062 /* Frameworks */,
+				69971CF6E0538C45BE5B2E112A4D7F3A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2371A4D0090C7DD04A41A6A84E8123A9 /* PBXTargetDependency */,
+			);
+			name = "Pods-TransitionViewController_Example";
+			productName = "Pods-TransitionViewController_Example";
+			productReference = A8E90AC8D79CD8E4FD2251F8C71B2936 /* Pods_TransitionViewController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					9E8681B32AD662EC5F25042F5CE8F40A = {
+						LastSwiftMigration = 0900;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6942DC3026BE776769ABFC5D2AF4987E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E8681B32AD662EC5F25042F5CE8F40A /* Pods-TransitionViewController_Example */,
+				20931CA7878134CBFC2960509BED0FA7 /* Pods-TransitionViewController_Tests */,
+				4F2C70C8F3258C1EF428D34E7D4339C1 /* TransitionViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02CD924F6A1E92905ABC73760FDA2D5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C10E766A5E7F64BC553494E1C053978D /* Pods-TransitionViewController_Example-dummy.m in Sources */,
+				8ACD623C1F85428200BB1119 /* TransitionViewController.swift in Sources */,
+				8ACD623B1F85428000BB1119 /* TransitionAnimator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CC1CA391CE26F77FDFADCC1E18E7A4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3729AE70C21A4DC7BDC9D9FE68A40A5A /* Pods-TransitionViewController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CADE16C4E5A2B770E251E832A5C672CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EC0CD47767EB00C66E70685D68A21F0 /* TransitionViewController-dummy.m in Sources */,
+				8ACD62341F8540A800BB1119 /* TransitionViewController.swift in Sources */,
+				8ACD62351F8540AB00BB1119 /* TransitionAnimator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2371A4D0090C7DD04A41A6A84E8123A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TransitionViewController;
+			target = 4F2C70C8F3258C1EF428D34E7D4339C1 /* TransitionViewController */;
+			targetProxy = 30013A9CB284ADEF78C5BA14D680186B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D404DAE541F3DBD0258B23EF2512533 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67D732B2BC30955E7D3EDBDD6A8FD8B8 /* TransitionViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TransitionViewController/TransitionViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TransitionViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TransitionViewController/TransitionViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TransitionViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		44D27381198C29D4BEC5159A415E87DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB3685063887672A2918627F48903991 /* Pods-TransitionViewController_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TransitionViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TransitionViewController_Tests/Pods-TransitionViewController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TransitionViewController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		54D12E068762B3D3C3C6286576595FBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FB3C1D517116E505BBFC038A332FBC0 /* Pods-TransitionViewController_Example.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TransitionViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TransitionViewController_Example/Pods-TransitionViewController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TransitionViewController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9624E904D7794846DC53CE15A0438AB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67D732B2BC30955E7D3EDBDD6A8FD8B8 /* TransitionViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TransitionViewController/TransitionViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TransitionViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TransitionViewController/TransitionViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TransitionViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D8B3B28B76597B5749AE57C516A6D9B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CAB0609DD8F3A9348DEDA5EBB75EDFF /* Pods-TransitionViewController_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TransitionViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TransitionViewController_Tests/Pods-TransitionViewController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TransitionViewController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DCEFAAD6DC7C80221370CBE130EF897E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE48A97B342CC092F9C328D58957D431 /* Pods-TransitionViewController_Example.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TransitionViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TransitionViewController_Example/Pods-TransitionViewController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TransitionViewController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F280105C0ED09954C759C543B6FDC5D /* Build configuration list for PBXNativeTarget "Pods-TransitionViewController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54D12E068762B3D3C3C6286576595FBF /* Debug */,
+				DCEFAAD6DC7C80221370CBE130EF897E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		946267F34BD4896B66D653C3527CDD97 /* Build configuration list for PBXNativeTarget "Pods-TransitionViewController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44D27381198C29D4BEC5159A415E87DE /* Debug */,
+				D8B3B28B76597B5749AE57C516A6D9B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA89FEE459591224485E0BC8379A30B1 /* Build configuration list for PBXNativeTarget "TransitionViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D404DAE541F3DBD0258B23EF2512533 /* Debug */,
+				9624E904D7794846DC53CE15A0438AB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

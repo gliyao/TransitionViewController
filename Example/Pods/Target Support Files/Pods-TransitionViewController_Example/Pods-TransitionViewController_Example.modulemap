@@ -1,0 +1,6 @@
+framework module Pods_TransitionViewController_Example {
+  umbrella header "Pods-TransitionViewController_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

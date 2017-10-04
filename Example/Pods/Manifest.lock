@@ -1,0 +1,16 @@
+PODS:
+  - TransitionViewController (0.1.0)
+
+DEPENDENCIES:
+  - TransitionViewController (from `../`)
+
+EXTERNAL SOURCES:
+  TransitionViewController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TransitionViewController: 93e3a248dcd4189e0d5c9082062e5dabaebea30c
+
+PODFILE CHECKSUM: 2762903f7ee092dd4b745e308d46d68354cab8f0
+
+COCOAPODS: 1.2.1
