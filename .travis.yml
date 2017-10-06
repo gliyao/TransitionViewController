@@ -38,5 +38,5 @@ osx_image: xcode9
 script:
 - xcodebuild clean build -workspace Example/TransitionViewController.xcworkspace -scheme 'TransitionViewController-Example' -sdk iphonesimulator PLATFORM_NAME=iphonesimulator -configuration Debug | xcpretty
 # - set -o pipefail && xcodebuild test -workspace Example/TransitionViewController.xcworkspace -scheme 'TransitionViewController-Example' -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6,OS=10.3' -configuration Debug -enableCodeCoverage YES | xcpretty
-# - xcodebuild test -workspace Example/TransitionViewController.xcworkspace -scheme 'TransitionViewController-Example' -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6,OS=10.3' -configuration Debug -enableCodeCoverage YES | xcpretty
+- xcodebuild test -workspace Example/TransitionViewController.xcworkspace -scheme 'TransitionViewController-Example' -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6,OS=10.3' -configuration Debug -enableCodeCoverage YES | xcpretty
 # - pod lib lint
