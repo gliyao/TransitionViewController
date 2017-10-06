@@ -60,7 +60,7 @@ Liyao Chen, gliyao@gmail.com
 
 ## License
 
-LCLabel is available under the MIT license. See the LICENSE file for more info.
+TransitionViewController is available under the MIT license. See the LICENSE file for more info.
 
 
 ## How To Use
