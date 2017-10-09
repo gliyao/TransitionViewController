@@ -12,10 +12,10 @@
 		2EC0CD47767EB00C66E70685D68A21F0 /* TransitionViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E08BCFDCB25195C52EAF7247BE4F9452 /* TransitionViewController-dummy.m */; };
 		3291A7438D7640DE24314371DEE75E17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		3729AE70C21A4DC7BDC9D9FE68A40A5A /* Pods-TransitionViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF6C49CBBB5B0F13BF83BD5BF01BAB0 /* Pods-TransitionViewController_Tests-dummy.m */; };
-		8ACD62341F8540A800BB1119 /* TransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACD62321F85400800BB1119 /* TransitionViewController.swift */; };
-		8ACD62351F8540AB00BB1119 /* TransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACD62331F85400900BB1119 /* TransitionAnimator.swift */; };
-		8ACD623B1F85428000BB1119 /* TransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACD62331F85400900BB1119 /* TransitionAnimator.swift */; };
-		8ACD623C1F85428200BB1119 /* TransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACD62321F85400800BB1119 /* TransitionViewController.swift */; };
+		8ABE0E7C1F8B5B9800ED2559 /* TransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACD62331F85400900BB1119 /* TransitionAnimator.swift */; };
+		8ABE0E7D1F8B5B9B00ED2559 /* TransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACD62321F85400800BB1119 /* TransitionViewController.swift */; };
+		8ABE0E7E1F8B5C1E00ED2559 /* TransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACD62331F85400900BB1119 /* TransitionAnimator.swift */; };
+		8ABE0E7F1F8B5C2000ED2559 /* TransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACD62321F85400800BB1119 /* TransitionViewController.swift */; };
 		B3BBB98B53DC9B29E0D422A3FF3A3C81 /* TransitionViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BDDE3C671617FD51A7E851FB0E081B10 /* TransitionViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B63F7A7BAD370120C90625E2F00520D4 /* Pods-TransitionViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D6D26157B07D622715773AFF0DCA96 /* Pods-TransitionViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BEECBBA4264B06705A8446E80F2FBFF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -348,8 +348,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C10E766A5E7F64BC553494E1C053978D /* Pods-TransitionViewController_Example-dummy.m in Sources */,
-				8ACD623C1F85428200BB1119 /* TransitionViewController.swift in Sources */,
-				8ACD623B1F85428000BB1119 /* TransitionAnimator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +356,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3729AE70C21A4DC7BDC9D9FE68A40A5A /* Pods-TransitionViewController_Tests-dummy.m in Sources */,
+				8ABE0E7F1F8B5C2000ED2559 /* TransitionViewController.swift in Sources */,
+				8ABE0E7E1F8B5C1E00ED2559 /* TransitionAnimator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,8 +366,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EC0CD47767EB00C66E70685D68A21F0 /* TransitionViewController-dummy.m in Sources */,
-				8ACD62341F8540A800BB1119 /* TransitionViewController.swift in Sources */,
-				8ACD62351F8540AB00BB1119 /* TransitionAnimator.swift in Sources */,
+				8ABE0E7D1F8B5B9B00ED2559 /* TransitionViewController.swift in Sources */,
+				8ABE0E7C1F8B5B9800ED2559 /* TransitionAnimator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +496,7 @@
 				PRODUCT_NAME = Pods_TransitionViewController_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -650,6 +651,7 @@
 				PRODUCT_NAME = Pods_TransitionViewController_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
