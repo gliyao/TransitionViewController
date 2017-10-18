@@ -42,4 +42,4 @@ script:
   - pod lib lint TransitionViewController.podspec
 
 after_success:
-  - bash <(curl -s https://codecov.io/bash)
+  - bash <(curl -s https://codecov.io/bash -t 8a5d0a53-2663-44df-8b8a-44d4e2a36ba7
