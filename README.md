@@ -4,6 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/TransitionViewController.svg?style=flat)](http://cocoapods.org/pods/TransitionViewController)
 [![License](https://img.shields.io/cocoapods/l/TransitionViewController.svg?style=flat)](http://cocoapods.org/pods/TransitionViewController)
 [![Platform](https://img.shields.io/cocoapods/p/TransitionViewController.svg?style=flat)](http://cocoapods.org/pods/TransitionViewController)
+[![codecov](https://codecov.io/gh/gliyao/TransitionViewController/branch/master/graph/badge.svg)](https://codecov.io/gh/gliyao/TransitionViewController)
 
 Use blur transiton effect in 2 steps. 
 
