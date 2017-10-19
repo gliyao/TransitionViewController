@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'TransitionViewController'
-  s.version          = '1.1.1'
+  s.version          = '1.1.0'
   s.summary          = 'Customize blur transiton effect with Xib.'
 
   s.description      = 'Use blur transiton effect in 2 steps. '\
