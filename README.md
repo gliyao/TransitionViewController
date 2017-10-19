@@ -11,7 +11,7 @@ Use blur transiton effect in 2 steps.
 First, subclass your dialog view controller.
 Second, chose tranistion style you want.
 
-<img src="./transition.gif" height="388" width="200"></img>
+<img src="./Reources/transition.gif" height="388" width="200"></img>
 
 ## Support Xib
 You can easily subclass `TransitionViewController` to achieve blur background effect.
@@ -21,8 +21,8 @@ You can easily subclass `TransitionViewController` to achieve blur background ef
 
 There have 2 kind of background effect. Blur and black with alpha.
 
-<img src="./darkBlurPopupView.png" height="351" width="200"></img>
-<img src="./balck05PopupView.png" height="351" width="200"></img>
+<img src="./Reources/darkBlurPopupView.png" height="351" width="200"></img>
+<img src="./Reources/balck05PopupView.png" height="351" width="200"></img>
 
 ``` swift
 enum TransitionStyle {
