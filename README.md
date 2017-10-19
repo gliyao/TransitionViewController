@@ -41,6 +41,23 @@ enum TransitionPosition {
 }
 ```
 
+## How To Use
+
+``` swift
+// 1. Subclass for your dialog view controller
+class YourPopupViewController: TransitionViewController {
+	override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
+		super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
+		
+		// 2. Change transition here!!
+		self.transition = TransitionAnimator(style: .blur(.light), presentFrom: .bottom, dismissTo: .bottom)
+	}
+
+	required init?(coder aDecoder: NSCoder) {
+		fatalError("init(coder:) has not been implemented")
+	}
+}
+```
 
 ## Requirements
 
@@ -63,21 +80,3 @@ Liyao Chen, gliyao@gmail.com
 
 TransitionViewController is available under the MIT license. See the LICENSE file for more info.
 
-
-## How To Use
-
-``` swift
-// 1. Subclass for your dialog view controller
-class YourPopupViewController: TransitionViewController {
-	override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
-		super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
-		
-		// 2. Change transition here!!
-		self.transition = TransitionAnimator(style: .blur(.light), presentFrom: .bottom, dismissTo: .bottom)
-	}
-
-	required init?(coder aDecoder: NSCoder) {
-		fatalError("init(coder:) has not been implemented")
-	}
-}
-```
