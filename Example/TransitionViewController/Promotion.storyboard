@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13526" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="LNZ-gL-zrz">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Promotion View Controller-->
+        <scene sceneID="8Yo-mV-Phi">
+            <objects>
+                <viewController storyboardIdentifier="PromotionViewController" id="LNZ-gL-zrz" customClass="PromotionViewController" customModule="TransitionViewController_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="haU-Nh-6sM"/>
+                        <viewControllerLayoutGuide type="bottom" id="5Zd-jW-nn8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fju-Fa-tSw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2uA-m5-lEg">
+                                <rect key="frame" x="87" y="233.5" width="200" height="200"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stoybaord Popup" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9hD-8g-HQ0">
+                                        <rect key="frame" x="33.5" y="89" width="133" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.5" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="97r-7p-5T1"/>
+                                    <constraint firstItem="9hD-8g-HQ0" firstAttribute="centerX" secondItem="2uA-m5-lEg" secondAttribute="centerX" id="JMg-FW-A77"/>
+                                    <constraint firstItem="9hD-8g-HQ0" firstAttribute="centerY" secondItem="2uA-m5-lEg" secondAttribute="centerY" id="S1U-0B-yxE"/>
+                                    <constraint firstAttribute="width" constant="200" id="dgq-od-Lfm"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2uA-m5-lEg" firstAttribute="centerX" secondItem="fju-Fa-tSw" secondAttribute="centerX" id="Sss-MN-d4c"/>
+                            <constraint firstItem="2uA-m5-lEg" firstAttribute="centerY" secondItem="fju-Fa-tSw" secondAttribute="centerY" id="fNi-ke-UBR"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a7X-y4-Rrj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-106" y="170"/>
+        </scene>
+    </scenes>
+</document>

@@ -13,6 +13,8 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		8A89F7511F98783300C3FAAC /* Promotion.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A89F7501F98783300C3FAAC /* Promotion.storyboard */; };
+		8A89F7531F98786600C3FAAC /* PromotionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A89F7521F98786600C3FAAC /* PromotionViewController.swift */; };
 		8ACD623F1F85432B00BB1119 /* BlurViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACD623D1F85432B00BB1119 /* BlurViewController.swift */; };
 		8ACD62411F85445E00BB1119 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ACD62401F8543FD00BB1119 /* Main.storyboard */; };
 		8ACD62421F85448D00BB1119 /* BlurViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ACD623E1F85432B00BB1119 /* BlurViewController.xib */; };
@@ -44,6 +46,8 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6D295978050D0CC6308C87ED /* Pods-TransitionViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransitionViewController_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TransitionViewController_Tests/Pods-TransitionViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7CEC50CEE7BDE8FF6810B5B4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8A89F7501F98783300C3FAAC /* Promotion.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Promotion.storyboard; sourceTree = "<group>"; };
+		8A89F7521F98786600C3FAAC /* PromotionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionViewController.swift; sourceTree = "<group>"; };
 		8ACD623D1F85432B00BB1119 /* BlurViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurViewController.swift; sourceTree = "<group>"; };
 		8ACD623E1F85432B00BB1119 /* BlurViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BlurViewController.xib; sourceTree = "<group>"; };
 		8ACD62401F8543FD00BB1119 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -111,6 +115,8 @@
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				8ACD62401F8543FD00BB1119 /* Main.storyboard */,
+				8A89F7501F98783300C3FAAC /* Promotion.storyboard */,
+				8A89F7521F98786600C3FAAC /* PromotionViewController.swift */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
@@ -256,6 +262,7 @@
 			files = (
 				8ACD62411F85445E00BB1119 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				8A89F7511F98783300C3FAAC /* Promotion.storyboard in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 				8ACD62421F85448D00BB1119 /* BlurViewController.xib in Resources */,
 			);
@@ -370,6 +377,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				8ACD623F1F85432B00BB1119 /* BlurViewController.swift in Sources */,
+				8A89F7531F98786600C3FAAC /* PromotionViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
