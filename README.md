@@ -4,13 +4,14 @@
 [![Version](https://img.shields.io/cocoapods/v/TransitionViewController.svg?style=flat)](http://cocoapods.org/pods/TransitionViewController)
 [![License](https://img.shields.io/cocoapods/l/TransitionViewController.svg?style=flat)](http://cocoapods.org/pods/TransitionViewController)
 [![Platform](https://img.shields.io/cocoapods/p/TransitionViewController.svg?style=flat)](http://cocoapods.org/pods/TransitionViewController)
+[![codecov](https://codecov.io/gh/gliyao/TransitionViewController/branch/master/graph/badge.svg)](https://codecov.io/gh/gliyao/TransitionViewController)
 
 Use blur transiton effect in 2 steps. 
 
 First, subclass your dialog view controller.
 Second, chose tranistion style you want.
 
-<img src="./transition.gif" height="776" width="400"></img>
+<img src="./transition.gif" height="388" width="200"></img>
 
 ## Support Xib
 You can easily subclass `TransitionViewController` to achieve blur background effect.
@@ -20,8 +21,8 @@ You can easily subclass `TransitionViewController` to achieve blur background ef
 
 There have 2 kind of background effect. Blur and black with alpha.
 
-<img src="./darkBlurPopupView.png" height="702" width="400"></img>
-<img src="./balck05PopupView.png" height="702" width="400"></img>
+<img src="./darkBlurPopupView.png" height="351" width="200"></img>
+<img src="./balck05PopupView.png" height="351" width="200"></img>
 
 ``` swift
 enum TransitionStyle {
@@ -40,6 +41,23 @@ enum TransitionPosition {
 }
 ```
 
+## How To Use
+
+``` swift
+// 1. Subclass for your dialog view controller
+class YourPopupViewController: TransitionViewController {
+	override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
+		super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
+		
+		// 2. Change transition here!!
+		self.transition = TransitionAnimator(style: .blur(.light), presentFrom: .bottom, dismissTo: .bottom)
+	}
+
+	required init?(coder aDecoder: NSCoder) {
+		fatalError("init(coder:) has not been implemented")
+	}
+}
+```
 
 ## Requirements
 
@@ -62,21 +80,3 @@ Liyao Chen, gliyao@gmail.com
 
 TransitionViewController is available under the MIT license. See the LICENSE file for more info.
 
-
-## How To Use
-
-``` swift
-// 1. Subclass for your dialog view controller
-class YourPopupViewController: TransitionViewController {
-	override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
-		super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
-		
-		// 2. Change transition here!!
-		self.transition = TransitionAnimator(style: .blur(.light), presentFrom: .bottom, dismissTo: .bottom)
-	}
-
-	required init?(coder aDecoder: NSCoder) {
-		fatalError("init(coder:) has not been implemented")
-	}
-}
-```

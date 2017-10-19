@@ -14,6 +14,10 @@ before_install:
     - xcodebuild -showsdks
 
 script:
-    - xcodebuild clean build -workspace Example/TransitionViewController.xcworkspace -scheme 'TransitionViewController-Example' -sdk iphonesimulator PLATFORM_NAME=iphonesimulator -configuration Debug | xcpretty
-    - xcodebuild test -workspace Example/TransitionViewController.xcworkspace -scheme 'TransitionViewController-Example' -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6,OS=10.3' -configuration Debug -enableCodeCoverage YES | xcpretty
-    - pod lib lint TransitionViewController.podspec
+  - xcodebuild clean build -workspace Example/TransitionViewController.xcworkspace -scheme 'TransitionViewController-Example' -sdk iphonesimulator PLATFORM_NAME=iphonesimulator -configuration Debug | xcpretty
+  # - set -o pipefail && xcodebuild test -workspace Example/TransitionViewController.xcworkspace -scheme 'TransitionViewController-Example' -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6,OS=10.3' -configuration Debug -enableCodeCoverage YES | xcpretty
+  - xcodebuild test -workspace Example/TransitionViewController.xcworkspace -scheme 'TransitionViewController-Example' -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6,OS=10.3' -configuration Debug -enableCodeCoverage YES | xcpretty
+  - pod lib lint TransitionViewController.podspec
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash) -t 8a5d0a53-2663-44df-8b8a-44d4e2a36ba7
