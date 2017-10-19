@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 public enum TransitionPosition {
-	case top, bottom, left, right
+	case none, top, bottom, left, right
 	
 	func frame() -> CGRect {
 		let bounds = UIScreen.main.bounds
@@ -23,6 +23,8 @@ public enum TransitionPosition {
 			return CGRect(x: bounds.width * -1, y: 0, width: bounds.width, height: bounds.height)
 		case .right:
 			return CGRect(x: bounds.width, y: 0, width: bounds.width, height: bounds.height)
+		case .none:
+			return bounds
 		}
 	}
 }
@@ -30,6 +32,7 @@ public enum TransitionPosition {
 extension TransitionPosition: Equatable {
 	public static func ==(lhs: TransitionPosition, rhs: TransitionPosition) -> Bool {
 		switch (lhs, rhs) {
+		case (.none, .none): return true
 		case (.top, .top): return true
 		case (.left, .left): return true
 		case (.bottom, .bottom): return true
@@ -133,7 +136,9 @@ extension TransitionAnimator {
 		let blurView = BackgroundViewFactory.backgroundView(with: style)
 		blurView.frame = popupVC.view.bounds
 		blurView.alpha = 0
-		
+		if direction == .none {
+			popupVC.view.alpha = 0
+		}
 		originVC.view.addSubview(blurView)
 		
 		popupVC.view.backgroundColor = UIColor.clear
@@ -142,6 +147,9 @@ extension TransitionAnimator {
 			originVC.view.tintAdjustmentMode = .dimmed
 			popupVC.view.frame = endFrame
 			blurView.alpha = 1
+			if direction == .none {
+				popupVC.view.alpha = 1
+			}
 		}) { (finished: Bool) in
 			blurView.removeFromSuperview()
 			popupVC.view.insertSubview(blurView, at: 0)
@@ -167,6 +175,10 @@ extension TransitionAnimator {
 			originVC.view.tintAdjustmentMode = .automatic
 			popupVC.view.frame = endFrame
 			blurView.alpha = 0
+			if direction == .none {
+				popupVC.view.alpha = 0
+			}
+			
 		}) { (finished: Bool) in
 			transitionContext.completeTransition(true)
 			blurView.removeFromSuperview()

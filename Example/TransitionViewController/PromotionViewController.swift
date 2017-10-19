@@ -15,14 +15,14 @@ class PromotionViewController: TransitionViewController {
 		super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
 		
 		// 2. Change transition here!!
-		self.transition = TransitionAnimator(style: .blur(.dark), presentFrom: .bottom, dismissTo: .bottom)
+		self.transition = TransitionAnimator(style: .blur(.dark), presentFrom: .none, dismissTo: .none)
 	}
 	
 	required init?(coder aDecoder: NSCoder) {
 		super.init(coder: aDecoder)
 		
 		// 2. Change transition here!!
-		self.transition = TransitionAnimator(style: .blur(.dark), presentFrom: .bottom, dismissTo: .bottom)
+		self.transition = TransitionAnimator(style: .blur(.dark), presentFrom: .none, dismissTo: .none)
 	}
 	
 	override func viewDidLoad() {
