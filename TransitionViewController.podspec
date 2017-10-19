@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.screenshots     = 'https://github.com/gliyao/TransitionViewController/blob/master/Resources/darkBlurPopupView.png?raw=true', 'https://github.com/gliyao/TransitionViewController/blob/master/Resources/balck05PopupView.png?raw=true'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Liyao Chen' => 'gliyao@gmail.com' }
-  s.source           = { :git => 'https://github.com/gliyao/Resources/TransitionViewController.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/gliyao/TransitionViewController.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/gliyao'
 
   s.ios.deployment_target = '8.0'
