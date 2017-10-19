@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="YJX-Q8-Zn9">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13526" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="YJX-Q8-Zn9">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13524"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--TransitionViewControllerDemo-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TransitionViewControllerDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TransitionViewController_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Xhb-7D-wuN"/>
                         <viewControllerLayoutGuide type="bottom" id="FTJ-cS-IlU"/>
@@ -37,13 +38,24 @@
                                 <color key="backgroundColor" red="1" green="1" blue="0.27235243055555558" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gSd-ZP-W3y">
-                                <rect key="frame" x="103.5" y="295.5" width="168" height="75"/>
+                                <rect key="frame" x="61.5" y="295.5" width="252" height="75"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="52"/>
-                                <state key="normal" title="Present">
+                                <state key="normal" title="Present Xib">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="presentPopupVCAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UwY-R9-rEU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uaf-xK-p34">
+                                <rect key="frame" x="40.5" y="400" width="295" height="75"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="52"/>
+                                <state key="normal" title="Present Story">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="presentPopupVCAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QMS-9s-qTH"/>
+                                    <action selector="presentStoryboardVCAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="M9F-oQ-dNH"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -57,6 +69,7 @@
                             <constraint firstItem="gSd-ZP-W3y" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="E8g-hu-l20"/>
                             <constraint firstItem="ljH-Jw-CWd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ERx-Ht-ZOX"/>
                             <constraint firstItem="ljH-Jw-CWd" firstAttribute="top" secondItem="Xhb-7D-wuN" secondAttribute="bottom" id="FW8-ds-8bj"/>
+                            <constraint firstItem="uaf-xK-p34" firstAttribute="top" secondItem="gSd-ZP-W3y" secondAttribute="bottom" constant="29.5" id="FXR-cW-7dn"/>
                             <constraint firstItem="gSd-ZP-W3y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Fbb-CK-dxi"/>
                             <constraint firstItem="q41-DM-Uw0" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="I5q-nM-je5"/>
                             <constraint firstItem="q41-DM-Uw0" firstAttribute="top" secondItem="ljH-Jw-CWd" secondAttribute="bottom" id="JUL-5t-FA4"/>
@@ -66,6 +79,7 @@
                             <constraint firstItem="FTJ-cS-IlU" firstAttribute="top" secondItem="EvE-ra-O6e" secondAttribute="bottom" id="Zsz-6n-jB0"/>
                             <constraint firstItem="ljH-Jw-CWd" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="g1R-Lq-lOr"/>
                             <constraint firstItem="q41-DM-Uw0" firstAttribute="top" secondItem="ljH-Jw-CWd" secondAttribute="bottom" id="oZg-4T-W8d"/>
+                            <constraint firstItem="uaf-xK-p34" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oza-xk-6MO"/>
                             <constraint firstItem="q41-DM-Uw0" firstAttribute="height" secondItem="fwM-fe-823" secondAttribute="height" id="qAA-Y1-q4e"/>
                             <constraint firstItem="ljH-Jw-CWd" firstAttribute="height" secondItem="q41-DM-Uw0" secondAttribute="height" id="sQa-Lb-YUZ"/>
                             <constraint firstItem="fwM-fe-823" firstAttribute="height" secondItem="EvE-ra-O6e" secondAttribute="height" id="uW5-ee-fGK"/>

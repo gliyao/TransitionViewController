@@ -18,5 +18,11 @@ class ViewController: UIViewController {
 	@IBAction func presentPopupVCAction(_ sender: Any) {
 		self.present(BlurViewController(), animated: true, completion: nil)
 	}
+	
+	@IBAction func presentStoryboardVCAction(_ sender: Any) {
+		let storyboard = UIStoryboard(name: "Promotion", bundle: Bundle.main)
+		let promotionVC = storyboard.instantiateViewController(withIdentifier: "PromotionViewController")
+		self.present(promotionVC, animated: true, completion: nil)
+	}
 }
 
