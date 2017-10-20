@@ -33,11 +33,11 @@ enum TransitionStyle {
 
 ## Present and Dismiss Direction
 
-Support 4 direction (top, bottom, left, right)
+Support 4 direction (top, bottom, left, right, none)
 
 ``` swift
 enum TransitionPosition {
-	case top, bottom, left, right
+	case top, bottom, left, right, none
 }
 ```
 
