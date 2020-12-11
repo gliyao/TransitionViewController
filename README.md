@@ -18,7 +18,7 @@ Second, chose tranistion style you want.
 You can easily subclass `TransitionViewController` to achieve blur background effect.
 
 
-## Background Effet
+## Background Effect
 
 There have 2 kind of background effect. Blur and black with alpha.
 
